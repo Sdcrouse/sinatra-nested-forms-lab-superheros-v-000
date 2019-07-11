@@ -40,11 +40,11 @@
     </p>
     <p>
       <label for="hero_power_<%= num %>">Hero's Power:</label>
-      <input type="text" id="hero_power_<%= num %>" />
+      <input type="text" id="hero_power_<%= num %>" name="team[members][][power]" />
     </p>
     <p>
       <label for="hero_bio_<%= num %>">Hero's Biography:</label>
-      <input type="text" id="hero_bio_<%= num %>" />
+      <input type="text" id="hero_bio_<%= num %>" name="team[members][][bio]" />
     </p>
   <% end %>
   
