@@ -12,7 +12,7 @@ class App < Sinatra::Base
       @team = Team.new(params["team"])
       params["team"]["members"].each { |member| Hero.new(member) }
       @heroes = Hero.all
-      binding.pry
+      
       erb :team
     end
     
