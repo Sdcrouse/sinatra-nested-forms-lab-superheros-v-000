@@ -36,15 +36,15 @@
     <h2>Hero <%= num %></h2>
     <p>
       <label for="member<%= num %>_name">Hero's Name:</label>
-      <input type="text" id="hero_name_<%= num %>" name="team[members][][name]" />
+      <input type="text" id="member<%= num %>_name" name="team[members][][name]" />
     </p>
     <p>
-      <label for="hero_power_<%= num %>">Hero's Power:</label>
-      <input type="text" id="hero_power_<%= num %>" name="team[members][][power]" />
+      <label for="member<%= num %>_power">Hero's Power:</label>
+      <input type="text" id="member<%= num %>_power" name="team[members][][power]" />
     </p>
     <p>
-      <label for="hero_bio_<%= num %>">Hero's Biography:</label>
-      <input type="text" id="hero_bio_<%= num %>" name="team[members][][bio]" />
+      <label for="member<%= num %>_bio">Hero's Biography:</label>
+      <input type="text" id="member<%= num %>_bio" name="team[members][][bio]" />
     </p>
   <% end %>
   
